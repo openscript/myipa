@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans');
+:root {
+  --background-color: #393B45;
+  --font-color: #D8D9DE;
+
+  --color-red: #fd5c65;
+  --color-red-darken: #eb3b5b;
+  --color-yellow: #fed230;
+  --color-yellow-darken: #f8b732;
+  --color-green: #26de80;
+  --color-green-darken: #20bf6c;
+  --color-blue: #4b7aec;
+  --color-blue-darken: #3966d6;
+  font-size: 14px;
+}
+/* General fixes */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a, a:active, a:focus, a:hover {
+  outline: none;
+  text-decoration: none;
+  color: var(--color-blue);
+}
+a:hover {
+  color: var(--color-blue-darken);
+}
+
+/* Style */
+body {
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: var(--background-color);
+  color: var(--font-color);
+}
+
+.wrapper {
+  margin-top: calc( 40px + 2rem );
+}
+footer {
+  margin-top: auto;
+}
+footer .copyright {
+  padding: 15px;
+  text-align: center;
+  display: block;
+}
+.page-title {
+  font-size: 60px;
+}
+
+
+/*NAV BAR*/
+.navbar {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  justify-content: space-between;
+  padding: 20px;
+  transition: 300ms ease;
+  background: #191b1e;
+}
+
+.navbar-title a {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  position: relative;
+  line-height: 1.75rem;
+}
+.navbar-nav  li {
+  padding-left: 20px;
+}
+.navbar.fadeout {
+  transform: translateY(-100%) !important;
+}
+
+/* Reusable */
+.content {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.btn {
+  margin-top: 15px;
+  background-color: var(--color-blue);
+  border-radius: .5rem;
+  color: #fff;
+  padding: .75rem 1.5rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+}
+.btn:hover {
+  background-color: var(--color-blue-darken);
+}
+ 
+/* Breakpoints */
+@media (min-width: 576px) {
+  .content {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  :root { font-size: 16px; }
+  .content {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .content {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .content {
+    max-width: 1140px;
+  }
+}

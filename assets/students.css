@@ -1,0 +1,35 @@
+header > div {
+    padding-left: 125px;
+    padding-top: 75px;
+}
+
+.box {
+    width: 400px;
+    height: 300px;
+    background-color: #69ACB4;
+    border-radius: 1.25rem;
+    box-shadow: 8px 8px 8px #00000048;
+
+    display: flex;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 200px;
+}
+
+.boxes #boxOne, #boxTow {
+    margin-right: 40px;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+
+    color: whitesmoke;
+    font-size: 2rem;
+}

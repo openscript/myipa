@@ -53,6 +53,28 @@ footer .copyright {
   display: block;
 }
 
+.page-title {
+  font-size: 60px;
+}
+
+/*NAV BAR*/
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+
+  padding-right: 10%;
+  padding-top: 20px;
+}
+
+ul  li {
+  
+  padding-left: 20px;
+ 
+}
+
+ 
 /* Breakpoints */
 @media (min-width: 576px) {
  }

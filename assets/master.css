@@ -39,45 +39,80 @@ body {
 }
 
 .wrapper {
-  padding: 0 15px;
-  min-width: 100%;
+  margin-top: calc( 40px + 2rem );
 }
-
 footer {
   margin-top: auto;
 }
-
 footer .copyright {
   padding: 15px;
   text-align: center;
   display: block;
 }
-
 .page-title {
   font-size: 60px;
 }
 
+
 /*NAV BAR*/
+.navbar {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  justify-content: space-between;
+  padding: 20px;
+  transition: 300ms ease;
+  background: #191b1e;
+}
+
+.navbar-title a {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
 
 .navbar-nav {
   display: flex;
-  list-style: none;
   justify-content: flex-end;
-  padding: 20px;
+  list-style: none;
+  position: relative;
+  line-height: 1.75rem;
 }
-
 .navbar-nav  li {
   padding-left: 20px;
 }
+.navbar.fadeout {
+  transform: translateY(-100%) !important;
+}
 
+/* Reusable */
+.content {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
  
 /* Breakpoints */
 @media (min-width: 576px) {
+  .content {
+    max-width: 540px;
+  }
 }
 @media (min-width: 768px) {
   :root { font-size: 16px; }
+  .content {
+    max-width: 720px;
+  }
 }
 @media (min-width: 992px) {
+  .content {
+    max-width: 960px;
+  }
 }
 @media (min-width: 1200px) {
+  .content {
+    max-width: 1140px;
+  }
 }

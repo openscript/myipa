@@ -13,6 +13,5 @@ async function init() {
     }
     positionScroll = scroll;
   });
-  particlesJS.load('particles-js', '/assets/particles.json');
 }
 init()

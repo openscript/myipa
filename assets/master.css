@@ -93,6 +93,20 @@ footer .copyright {
   margin-right: auto;
   margin-left: auto;
 }
+.btn {
+  margin-top: 15px;
+  background-color: var(--color-blue);
+  border-radius: .5rem;
+  color: #fff;
+  padding: .75rem 1.5rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+}
+.btn:hover {
+  background-color: var(--color-blue-darken);
+}
  
 /* Breakpoints */
 @media (min-width: 576px) {

@@ -103,6 +103,33 @@
   background: #fff;
 }
 
+.illustration {
+  margin: -20.5rem 0 0 -31.25rem;
+  height: 70%;
+}
+
+
+.decorator__left {
+  background-color: #5F5FFF;
+  border-radius: 50%;
+  position: absolute;
+  left: -8.5rem;
+  top: 72.5rem;
+  height: 31rem;
+  width: 31rem;
+}
+.decorator__left::before {
+  border: 1px solid #000;
+  border-radius: 50%;
+  content: '';
+  display: block;
+  position: relative;
+  left: 9px;
+  top: -5px;
+  height: 31rem;
+  width: 31rem;
+}
+
 
 @media (max-width: 992px) {
   :root {
@@ -110,5 +137,9 @@
   }
   .content {
     margin: 0 2rem;
+  }
+  .decorator__left {
+    top: 100rem;
+    left: -12rem;
   }
 }

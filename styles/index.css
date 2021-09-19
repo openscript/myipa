@@ -55,3 +55,50 @@
   left: 0;
   transition: ease-in-out 280ms;
 }
+
+
+
+.wrapper__content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 9rem;
+  gap: 6rem;
+}
+.content {
+  max-width: 100rem;
+}
+
+.slogan {
+  font-size: 8rem;
+  text-align: center;
+}
+.description {
+  color: #718096;
+  font-size: 2.75rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  margin-top: 6rem;
+  text-align: center;
+}
+
+.call-action {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: end;
+  margin: 9rem 2.5rem 0 0;
+}
+
+.learn-more__btn {
+  border: .25rem solid #000;
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 1.5rem 3.5rem;
+  background-color: #000;
+}
+.learn-more__btn.btn--invert {
+  color: #000;
+  background: #fff;
+}

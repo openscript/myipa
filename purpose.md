@@ -44,6 +44,8 @@ Welche Beträge werden benötigt? Weshalb werden diese benötigt? Was erhalten d
 - Needs
   - Domain: 15.-/Jahr
     - Die Domain wird benötigt, um die Seite im Internet einfach auffindbar zu machen.
+  - Entwicklungskosten?
+    - Bezahlung für die Entwicklung?
 
 - Sponsors
   - Die Sponsoren erhalten eine Platzierung auf der Landingpage.

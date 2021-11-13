@@ -41,4 +41,11 @@ Woran könnte dieses Projekt scheitern?
 ## Sponsoren
 Welche Beträge werden benötigt? Weshalb werden diese benötigt? Was erhalten die Sponsoren?
 
-- TODO
+- Needs
+  - Domain: 15.-/Jahr
+    - Die Domain wird benötigt, um die Seite im Internet einfach auffindbar zu machen.
+
+- Sponsors
+  - Die Sponsoren erhalten eine Platzierung auf der Landingpage.
+
+**Total**: 15.-/Jahr
